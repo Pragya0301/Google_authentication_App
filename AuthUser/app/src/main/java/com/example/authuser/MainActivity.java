@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                // if default_web_client_id doesn't work then use "14927218479-i3i02ksuu1h68ls58c6t6ab8gdo5epld.apps.googleusercontent.com" in place of it
                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail().build();
 
