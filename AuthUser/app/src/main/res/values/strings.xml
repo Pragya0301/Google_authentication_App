@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AuthUser</string>
+    <string name="google_signin">Continue with Google</string>
+</resources>
